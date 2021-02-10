@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="typ" table="x_578933_transport_transportation" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>typ</element>
+            <name>x_578933_transport_transportation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 14:12:44</sys_created_on>
+            <sys_id>f57a19382fd260107979309cf699b6d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>typ</sys_name>
+            <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+            <sys_update_name>sys_choice_x_578933_transport_transportation_typ</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 14:12:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Airplane</label>
+            <language>en</language>
+            <name>x_578933_transport_transportation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 14:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>077a59382fd260107979309cf699b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 14:13:03</sys_updated_on>
+            <value>airplane</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ship</label>
+            <language>en</language>
+            <name>x_578933_transport_transportation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 14:12:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>796a95782fd260107979309cf699b6bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 14:12:44</sys_updated_on>
+            <value>ship</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Truck</label>
+            <language>en</language>
+            <name>x_578933_transport_transportation</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-10 14:13:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f8a95782fd260107979309cf699b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-10 14:13:22</sys_updated_on>
+            <value>truck</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

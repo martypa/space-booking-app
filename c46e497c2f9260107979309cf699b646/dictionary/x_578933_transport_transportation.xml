@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="transportation" max_length="40" name="x_578933_transport_transportation" type="collection">
+        <element label="Available Space" max_length="20" name="available_space" type="decimal"/>
+        <element label="Capacity size" max_length="20" name="capacity_size" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Empty" value="empty"/>
+                <element inactive_on_update="false" label="Full" value="full"/>
+                <element inactive_on_update="false" label="Half full" value="half_full"/>
+            </choice>
+        </element>
+        <element choice="3" label="Typ" max_length="40" name="typ" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Airplane" value="airplane"/>
+                <element inactive_on_update="false" label="Ship" value="ship"/>
+                <element inactive_on_update="false" label="Truck" value="truck"/>
+            </choice>
+        </element>
+    </element>
+</database>
