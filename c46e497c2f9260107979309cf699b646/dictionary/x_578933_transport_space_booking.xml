@@ -5,9 +5,9 @@
         <element attributes="edge_encryption_enabled=true" label="Dangerous Good Description" mandatory="true" max_length="120" name="dangerous_good_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Delivery Time" max_length="40" name="delivery_time" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Days" value="2_3_days"/>
-                <element inactive_on_update="false" label="Months" value="months"/>
-                <element inactive_on_update="false" label="Weeks" value="weeks"/>
+                <element inactive_on_update="false" label="Days" sequence="0" value="2_3_days"/>
+                <element inactive_on_update="false" label="Months" sequence="1" value="months"/>
+                <element inactive_on_update="false" label="Weeks" sequence="2" value="weeks"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Further details" max_length="1000" name="further_details" type="string"/>
