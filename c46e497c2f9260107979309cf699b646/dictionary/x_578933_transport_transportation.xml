@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="transportation" max_length="40" name="x_578933_transport_transportation" type="collection">
-        <element label="Available Space" max_length="20" name="available_space" type="decimal"/>
+    <element label="transportation" max_length="40" name="x_578933_transport_transportation" sizeclass="3" type="collection">
+        <element label="Available Space" max_length="20" name="available_space" read_only="true" type="decimal"/>
         <element label="Capacity size" max_length="20" name="capacity_size" type="decimal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" default="free" label="State" max_length="40" name="state" type="choice">
+        <element choice="3" default="free" label="State" max_length="40" name="state" read_only="true" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Empty" sequence="0" value="empty"/>
                 <element inactive_on_update="false" label="Free" sequence="0" value="free"/>

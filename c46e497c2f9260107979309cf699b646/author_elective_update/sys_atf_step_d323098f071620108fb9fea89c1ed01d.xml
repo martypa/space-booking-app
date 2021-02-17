@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>9</order>
+        <snapshot/>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>d323098f071620108fb9fea89c1ed01d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_atf_step_d323098f071620108fb9fea89c1ed01d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:18:13</sys_updated_on>
+        <table>x_578933_transport_transportation</table>
+        <test display_value="SpaceBooking Basic Booking Test">8202a84707d220108fb9fea89c1ed07f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=d323098f071620108fb9fea89c1ed01d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d323098f071620108fb9fea89c1ed01d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>1b23098f071620108fb9fea89c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value>x_578933_transport_transportation</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d323098f071620108fb9fea89c1ed01d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>5723098f071620108fb9fea89c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d323098f071620108fb9fea89c1ed01d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>9323098f071620108fb9fea89c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>sys_atf_step_d323098f071620108fb9fea89c1ed01d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate that the form matches the following condition:
+</description><display_name>Field Values Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>9</order><snapshot/><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>d323098f071620108fb9fea89c1ed01d</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>sys_atf_step_d323098f071620108fb9fea89c1ed01d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:18:13</sys_updated_on><table>x_578933_transport_transportation</table><test display_value="SpaceBooking Basic Booking Test">8202a84707d220108fb9fea89c1ed07f</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=d323098f071620108fb9fea89c1ed01d"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d323098f071620108fb9fea89c1ed01d</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>1b23098f071620108fb9fea89c1ed01e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value>x_578933_transport_transportation</value><variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d323098f071620108fb9fea89c1ed01d</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>5723098f071620108fb9fea89c1ed01e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d323098f071620108fb9fea89c1ed01d</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>9323098f071620108fb9fea89c1ed01e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1852812952</payload_hash>
+        <record_name>Field Values Validation</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:18:13</sys_created_on>
+        <sys_id>2463c98f071620108fb9fea89c1ed068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177afed309d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:18:13</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>6c63c98f591620106e5789a619b21867</update_guid>
+        <update_guid_history>6c63c98f591620106e5789a619b21867:-1852812952,6463c98fb416201083e4aec120a0982d:-897764722,5723098f2a1620102556c8fae5e11820:1074117903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:18:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>02be90518d904dd682abcfcb6474aec9</sys_id>
+        <sys_metadata>d323098f071620108fb9fea89c1ed01d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>sys_atf_step_d323098f071620108fb9fea89c1ed01d</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_d323098f071620108fb9fea89c1ed01d">2463c98f071620108fb9fea89c1ed068</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:18:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

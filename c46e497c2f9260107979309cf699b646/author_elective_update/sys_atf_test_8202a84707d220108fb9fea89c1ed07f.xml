@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Expected Result: processing a spacebooking for a airplane with 50m3 space&#13;
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>SpaceBooking Basic Booking Test</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:53:50</sys_created_on>
+        <sys_id>8202a84707d220108fb9fea89c1ed07f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SpaceBooking Basic Booking Test</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_atf_test_8202a84707d220108fb9fea89c1ed07f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:21:34</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=8202a84707d220108fb9fea89c1ed07f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>sys_atf_test_8202a84707d220108fb9fea89c1ed07f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Expected Result: processing a spacebooking for a airplane with 50m3 space&#13;
+</description><enable_parameterized_testing>false</enable_parameterized_testing><name>SpaceBooking Basic Booking Test</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 09:53:50</sys_created_on><sys_id>8202a84707d220108fb9fea89c1ed07f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>SpaceBooking Basic Booking Test</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>sys_atf_test_8202a84707d220108fb9fea89c1ed07f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:21:34</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=8202a84707d220108fb9fea89c1ed07f"/></record_update>]]></payload>
+        <payload_hash>1371996537</payload_hash>
+        <record_name>SpaceBooking Basic Booking Test</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:21:34</sys_created_on>
+        <sys_id>3d24cd8f071620108fb9fea89c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177aff042350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:21:34</sys_updated_on>
+        <type>Test</type>
+        <update_guid>7524cd8fa7162010dceadd285472f4cb</update_guid>
+        <update_guid_history>7524cd8fa7162010dceadd285472f4cb:1371996537,1723098faf1620101f2c1b216dd1fb0f:-1397745349,f15268476bd22010e2a09c1e55d429a0:872402475</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:22:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>4808316b397a4cb09c2900c2446a6764</sys_id>
+        <sys_metadata>8202a84707d220108fb9fea89c1ed07f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SpaceBooking Basic Booking Test</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>sys_atf_test_8202a84707d220108fb9fea89c1ed07f</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_8202a84707d220108fb9fea89c1ed07f">3d24cd8f071620108fb9fea89c1ed0cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:22:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

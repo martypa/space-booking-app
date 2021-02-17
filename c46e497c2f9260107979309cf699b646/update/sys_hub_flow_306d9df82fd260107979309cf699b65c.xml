@@ -6,31 +6,31 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-quebec-12-09-2020__patch0-hotfix2-01-08-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>processing_space_booking</internal_name>
-        <label_cache>[{"name":"Created_1.current.sys_created_by","label":"Trigger➛space booking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_created_by"},{"name":"Created_1.current","label":"Trigger➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Table","label":"8➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Record","label":"8➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Table","label":"8➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Record","label":"8➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.table_name","label":"6➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.record","label":"6➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.capacity_size","label":"4➛transportation Record➛Capacity size","reference":"","reference_display":"Capacity size","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"capacity_size"},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.available_space","label":"4➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.table_name","label":"4➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record","label":"4➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.space_m3","label":"Trigger➛space booking Record➛Space [m3]","reference":"","reference_display":"Space [m3]","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_space_booking","column_name":"space_m3"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item.available_space","label":"2➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item","label":"2➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Table","label":"1➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records","label":"1➛transportation Records","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked","label":"8➛space booking Record➛Booked","reference":"","reference_display":"Booked","type":"boolean","base_type":"boolean","parent_table_name":"x_578933_transport_space_booking","column_name":"booked"},{"name":"Created_1.current.sys_id","label":"Trigger➛space booking Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_id"},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.error_message","label":"8➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.status","label":"8➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Table","label":"8➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record","label":"8➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.findspace","label":"Flow Variables➛findSpace","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0b1178fd-ff5d-4ddb-b7c6-d0b815bf2410"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.error_message","label":"7➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.status","label":"7➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛space booking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_created_by"},{"name":"Created_1.current","label":"Trigger➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Table","label":"10➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Record","label":"10➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Table","label":"8➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Record","label":"8➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.table_name","label":"7➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.record","label":"7➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.capacity_size","label":"4➛transportation Record➛Capacity size","reference":"","reference_display":"Capacity size","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"capacity_size"},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.available_space","label":"4➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.table_name","label":"4➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record","label":"4➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.space_m3","label":"Trigger➛space booking Record➛Space [m3]","reference":"","reference_display":"Space [m3]","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_space_booking","column_name":"space_m3"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item.available_space","label":"2➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item","label":"2➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Table","label":"1➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records","label":"1➛transportation Records","reference":"x_578933_transport_transportation","reference_display":"transportation Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.status","label":"7➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.error_message","label":"7➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"43558423-4160-4138-b2d0-7ba642ad9d92.record","label":"8➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43558423-4160-4138-b2d0-7ba642ad9d92.table_name","label":"8➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87e24e0f-6da9-441b-a253-10c30fb3be69.record","label":"5➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87e24e0f-6da9-441b-a253-10c30fb3be69.table_name","label":"5➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.booked","label":"Trigger➛space booking Record➛Booked","reference":"","reference_display":"Booked","type":"boolean","base_type":"boolean","parent_table_name":"x_578933_transport_space_booking","column_name":"booked"},{"name":"bf737830-8e47-48c4-a40f-fb5fac1f7470.Record","label":"10➛Incident Record","reference":"incident","reference_display":"Incident Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf737830-8e47-48c4-a40f-fb5fac1f7470.Table","label":"10➛Incident Table","reference":"incident","reference_display":"Incident Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot>a66565b02f1660107979309cf699b68d</latest_snapshot>
         <master_snapshot>a66565b02f1660107979309cf699b68d</master_snapshot>
         <name>processing space booking</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>e365a5b02f1660107979309cf699b660</remote_trigger_id>
+        <remote_trigger_id>f77ed0c307d220108fb9fea89c1ed07a</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 14:25:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>306d9df82fd260107979309cf699b65c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>processing space booking</sys_name>
         <sys_overrides/>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name>sys_hub_flow_306d9df82fd260107979309cf699b65c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:40</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=306d9df82fd260107979309cf699b65c"/>
@@ -58,43 +58,104 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:38</sys_created_on>
+        <sys_created_on>2021-02-17 09:37:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e365a5b02f1660107979309cf699b660</sys_id>
+        <sys_id>f77ed0c307d220108fb9fea89c1ed07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:38</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:37:02</sys_updated_on>
         <table>x_578933_transport_space_booking</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"ef65a5b02f1660107979309cf699b660","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"f37ed0c307d220108fb9fea89c1ed07b","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>306d9df82fd260107979309cf699b65c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:38</sys_created_on>
-        <sys_id>ef65a5b02f1660107979309cf699b660</sys_id>
+        <sys_created_on>2021-02-17 09:37:02</sys_created_on>
+        <sys_id>f37ed0c307d220108fb9fea89c1ed07b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:38</sys_updated_on>
-        <trigger display_value="">e365a5b02f1660107979309cf699b660</trigger>
+        <sys_updated_on>2021-02-17 09:37:02</sys_updated_on>
+        <trigger display_value="">f77ed0c307d220108fb9fea89c1ed07a</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>ef65a5b02f1660107979309cf699b660</document_id>
+        <document_id>f37ed0c307d220108fb9fea89c1ed07b</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:38</sys_created_on>
-        <sys_id>e765a5b02f1660107979309cf699b661</sys_id>
+        <sys_created_on>2021-02-17 09:37:02</sys_created_on>
+        <sys_id>7b7ed0c307d220108fb9fea89c1ed07b</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=306d9df82fd260107979309cf699b65c^sys_idNOT INef65a5b02f1660107979309cf699b660"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT IN6855a1b02f1660107979309cf699b6c0,6c55a1b02f1660107979309cf699b6df,9c55a1b02f1660107979309cf699b6a2,a055a1b02f1660107979309cf699b6c4,a055a1b02f1660107979309cf699b6cd,d055a1b02f1660107979309cf699b6a8,d455a1b02f1660107979309cf699b6b9,e855a1b02f1660107979309cf699b6ca"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=306d9df82fd260107979309cf699b65c^sys_idNOT INf37ed0c307d220108fb9fea89c1ed07b"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT IN00ad9c4307d220108fb9fea89c1ed0cc,2f8c104307d220108fb9fea89c1ed067,6855a1b02f1660107979309cf699b6c0,6f8c104307d220108fb9fea89c1ed072,9c55a1b02f1660107979309cf699b6a2,a055a1b02f1660107979309cf699b6c4,d055a1b02f1660107979309cf699b6a8,d455a1b02f1660107979309cf699b6b9,e78c104307d220108fb9fea89c1ed07a,e855a1b02f1660107979309cf699b6ca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>00ad9c4307d220108fb9fea89c1ed0cc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>f5dffb2a-0fd7-4118-afda-a72a92dcef4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00ad9c4307d220108fb9fea89c1ed0cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00ad9c4307d220108fb9fea89c1ed0cc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>54ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=00ad9c4307d220108fb9fea89c1ed0cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>00ad9c4307d220108fb9fea89c1ed0cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>10ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>00ad9c4307d220108fb9fea89c1ed0cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>d0ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -104,16 +165,103 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>5</order>
+        <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed067</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>87e24e0f-6da9-441b-a253-10c30fb3be69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f8c104307d220108fb9fea89c1ed067"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f8c104307d220108fb9fea89c1ed067</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2b8c104307d220108fb9fea89c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f8c104307d220108fb9fea89c1ed067</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>638c104307d220108fb9fea89c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>booked=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f8c104307d220108fb9fea89c1ed067"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>678c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>ef8c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
         <order>4</order>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>6855a1b02f1660107979309cf699b6c0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>48ef9e35-c283-4bd6-bb68-f082cd0388e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6855a1b02f1660107979309cf699b6c0"/>
@@ -182,65 +330,74 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
-        <action_type_parent/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a38c104307d220108fb9fea89c1ed072</block>
         <comment/>
-        <compiled_snapshot/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
         <display_text/>
+        <extended_inputs/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <order>8</order>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
         <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:09</sys_created_on>
-        <sys_id>6c55a1b02f1660107979309cf699b6df</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>6f8c104307d220108fb9fea89c1ed072</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:40</sys_updated_on>
-        <ui_id>5efb8ef7-a72c-4cb3-895b-92e82f807b68</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=6c55a1b02f1660107979309cf699b6df"/>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6f8c104307d220108fb9fea89c1ed072"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>6c55a1b02f1660107979309cf699b6df</document_key>
-        <order>0</order>
+        <document>sys_hub_flow_logic</document>
+        <document_key>6f8c104307d220108fb9fea89c1ed072</document_key>
+        <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>6c55a1b02f1660107979309cf699b6e1</sys_id>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>638c104307d220108fb9fea89c1ed076</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>space booking record booked?</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6c55a1b02f1660107979309cf699b6df"/>
+    <sys_element_mapping action="delete_multiple" query="id=6f8c104307d220108fb9fea89c1ed072"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>6c55a1b02f1660107979309cf699b6df</id>
+        <field>condition</field>
+        <id>6f8c104307d220108fb9fea89c1ed072</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>e855a1b02f1660107979309cf699b6e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>ef8c104307d220108fb9fea89c1ed075</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>caller_id={{Created_1.current.sys_created_by}}^short_description=All transportation are full</value>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked}}=false</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>task_table</field>
-        <id>6c55a1b02f1660107979309cf699b6df</id>
+        <field>condition_name</field>
+        <id>6f8c104307d220108fb9fea89c1ed072</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>2855a1b02f1660107979309cf699b6e1</sys_id>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed075</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -248,7 +405,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
         <order>1</order>
@@ -257,10 +414,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>9c55a1b02f1660107979309cf699b6a2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:47</sys_updated_on>
         <ui_id>a6d04f8c-8330-4f9d-a93c-f9eeb532b212</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c55a1b02f1660107979309cf699b6a2"/>
@@ -286,10 +443,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>5c55a1b02f1660107979309cf699b6a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:08</sys_updated_on>
-        <value>state!=full</value>
+        <sys_updated_on>2021-02-17 09:11:40</sys_updated_on>
+        <value/>
         <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -321,7 +478,7 @@
         <variable display_value="Sort Type">0f400a1587003300663ca1bb36cb0b59</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6c3</block>
+        <block display_value="">80b85c4f079220108fb9fea89c1ed05c</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -334,7 +491,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
@@ -342,10 +499,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>a055a1b02f1660107979309cf699b6c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -391,37 +548,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6cc</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:09</sys_created_on>
-        <sys_id>a055a1b02f1660107979309cf699b6cd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:40</sys_updated_on>
-        <ui_id>c0862b4a-a45f-4ba2-aa89-c8504d71f197</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=a055a1b02f1660107979309cf699b6cd"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">9455a1b02f1660107979309cf699b6a7</block>
+        <block display_value="">80b85c4f079220108fb9fea89c1ed050</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -442,10 +569,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>d055a1b02f1660107979309cf699b6a8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:47</sys_updated_on>
         <ui_id>c05d62ec-f618-4a7c-bcd1-211280d514d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -465,7 +592,7 @@
         <value>{{a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1055a1b02f1660107979309cf699b6b9</block>
+        <block display_value="">44b85c4f079220108fb9fea89c1ed055</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -486,10 +613,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>d455a1b02f1660107979309cf699b6b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -537,22 +664,83 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <order>6</order>
+        <order>10</order>
+        <parent_ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>e78c104307d220108fb9fea89c1ed07a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>bf737830-8e47-48c4-a40f-fb5fac1f7470</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e78c104307d220108fb9fea89c1ed07a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e78c104307d220108fb9fea89c1ed07a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2b8c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e78c104307d220108fb9fea89c1ed07a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e78c104307d220108fb9fea89c1ed07a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>a78c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>caller_id={{Created_1.current.sys_created_by}}^description=fd-scripted^category=database^impact=1^urgency=2^assignment_group={"display":"Transport Manager","value":"768885c3075620108fb9fea89c1ed092"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>e78c104307d220108fb9fea89c1ed07a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>e38c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>7</order>
         <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>e855a1b02f1660107979309cf699b6ca</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>68bf7cd7-7357-49e5-8a9e-b4751cc9dd92</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e855a1b02f1660107979309cf699b6ca"/>
@@ -631,10 +819,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>5855a1b02f1660107979309cf699b69a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:47</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -686,7 +874,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -744,14 +932,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>4455a1b02f1660107979309cf699b693</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:39:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -767,7 +955,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -825,14 +1013,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>4c55a1b02f1660107979309cf699b672</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:39:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -844,7 +1032,68 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT IN6855a1b02f1660107979309cf699b6c0,6c55a1b02f1660107979309cf699b6df,9c55a1b02f1660107979309cf699b6a2,e855a1b02f1660107979309cf699b6ca"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT IN00ad9c4307d220108fb9fea89c1ed0cc,2f8c104307d220108fb9fea89c1ed067,6855a1b02f1660107979309cf699b6c0,9c55a1b02f1660107979309cf699b6a2,e78c104307d220108fb9fea89c1ed07a,e855a1b02f1660107979309cf699b6ca"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>00ad9c4307d220108fb9fea89c1ed0cc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>f5dffb2a-0fd7-4118-afda-a72a92dcef4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=00ad9c4307d220108fb9fea89c1ed0cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>00ad9c4307d220108fb9fea89c1ed0cc</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>54ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=00ad9c4307d220108fb9fea89c1ed0cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>00ad9c4307d220108fb9fea89c1ed0cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>10ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>00ad9c4307d220108fb9fea89c1ed0cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:33:15</sys_created_on>
+        <sys_id>d0ad9c4307d220108fb9fea89c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -854,16 +1103,103 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>5</order>
+        <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed067</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>87e24e0f-6da9-441b-a253-10c30fb3be69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f8c104307d220108fb9fea89c1ed067"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f8c104307d220108fb9fea89c1ed067</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2b8c104307d220108fb9fea89c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f8c104307d220108fb9fea89c1ed067</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>638c104307d220108fb9fea89c1ed06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>booked=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2f8c104307d220108fb9fea89c1ed067"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>678c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2f8c104307d220108fb9fea89c1ed067</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>ef8c104307d220108fb9fea89c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
         <order>4</order>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>6855a1b02f1660107979309cf699b6c0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>48ef9e35-c283-4bd6-bb68-f082cd0388e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6855a1b02f1660107979309cf699b6c0"/>
@@ -948,85 +1284,10 @@
     </sys_hub_input_scripts>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <order>8</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:09</sys_created_on>
-        <sys_id>6c55a1b02f1660107979309cf699b6df</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:40</sys_updated_on>
-        <ui_id>5efb8ef7-a72c-4cb3-895b-92e82f807b68</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=6c55a1b02f1660107979309cf699b6df"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>6c55a1b02f1660107979309cf699b6df</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>6c55a1b02f1660107979309cf699b6e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6c55a1b02f1660107979309cf699b6df"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>6c55a1b02f1660107979309cf699b6df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>e855a1b02f1660107979309cf699b6e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>caller_id={{Created_1.current.sys_created_by}}^short_description=All transportation are full</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>task_table</field>
-        <id>6c55a1b02f1660107979309cf699b6df</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>2855a1b02f1660107979309cf699b6e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=6c55a1b02f1660107979309cf699b6df^sys_idNOT IN6c55a1b02f1660107979309cf699b6e0"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>field_values</input_name>
-        <instance>6c55a1b02f1660107979309cf699b6df</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"short_description":{"scriptActive":false,"savedValue":""}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:10</sys_created_on>
-        <sys_id>6c55a1b02f1660107979309cf699b6e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:10</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
         <order>1</order>
@@ -1035,10 +1296,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>9c55a1b02f1660107979309cf699b6a2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:47</sys_updated_on>
         <ui_id>a6d04f8c-8330-4f9d-a93c-f9eeb532b212</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9c55a1b02f1660107979309cf699b6a2"/>
@@ -1064,10 +1325,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>5c55a1b02f1660107979309cf699b6a6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:08</sys_updated_on>
-        <value>state!=full</value>
+        <sys_updated_on>2021-02-17 09:11:40</sys_updated_on>
+        <value/>
         <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1098,25 +1359,114 @@
         <value>sort_desc</value>
         <variable display_value="Sort Type">0f400a1587003300663ca1bb36cb0b59</variable>
     </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c55a1b02f1660107979309cf699b6a2^sys_idNOT INc8b85c4f079220108fb9fea89c1ed04c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>9c55a1b02f1660107979309cf699b6a2</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"var velocity \u003d fd_data.trigger.current.delivery_time;\nvar transportation;\nswitch(velocity) {\n    case \u0027days\u0027:\n        transportation \u003d \u0027airplane\u0027\n        break;\n    case \u0027months\u0027:\n        transportation \u003d \u0027truck\u0027\n        break;\n    case \u0027weeks\u0027:\n        transportation \u003d \u0027ship\u0027\n        break;\n    default:\n        transportation \u003d \u0027ship\u0027\n}\n\nreturn \"state\u003dfree^typ\u003d\" + transportation;\n\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:11:40</sys_created_on>
+        <sys_id>c8b85c4f079220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:12:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <order>10</order>
+        <parent_ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>e78c104307d220108fb9fea89c1ed07a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>bf737830-8e47-48c4-a40f-fb5fac1f7470</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e78c104307d220108fb9fea89c1ed07a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e78c104307d220108fb9fea89c1ed07a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2b8c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e78c104307d220108fb9fea89c1ed07a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e78c104307d220108fb9fea89c1ed07a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>a78c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>caller_id={{Created_1.current.sys_created_by}}^description=fd-scripted^category=database^impact=1^urgency=2^assignment_group={"display":"Transport Manager","value":"768885c3075620108fb9fea89c1ed092"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>e78c104307d220108fb9fea89c1ed07a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>e38c104307d220108fb9fea89c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e78c104307d220108fb9fea89c1ed07a^sys_idNOT INa78c104307d220108fb9fea89c1ed07b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>field_values</input_name>
+        <instance>e78c104307d220108fb9fea89c1ed07a</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"description":{"scriptActive":true,"script":"\nreturn \u0027The spacebooking: \u0027 + fd_data.trigger.current.sys_id + \u0027could not booking, because of not space available!\u0027\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>a78c104307d220108fb9fea89c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>e855a1b02f1660107979309cf699b6ca</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>68bf7cd7-7357-49e5-8a9e-b4751cc9dd92</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e855a1b02f1660107979309cf699b6ca"/>
@@ -1185,9 +1535,9 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT INa055a1b02f1660107979309cf699b6c4,a055a1b02f1660107979309cf699b6cd,d055a1b02f1660107979309cf699b6a8,d455a1b02f1660107979309cf699b6b9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=306d9df82fd260107979309cf699b65c^sys_idNOT IN6f8c104307d220108fb9fea89c1ed072,a055a1b02f1660107979309cf699b6c4,d055a1b02f1660107979309cf699b6a8,d455a1b02f1660107979309cf699b6b9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6c3</block>
+        <block display_value="">a38c104307d220108fb9fea89c1ed072</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1200,7 +1550,77 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>6f8c104307d220108fb9fea89c1ed072</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
+        <ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6f8c104307d220108fb9fea89c1ed072"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6f8c104307d220108fb9fea89c1ed072</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>638c104307d220108fb9fea89c1ed076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <value>space booking record booked?</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f8c104307d220108fb9fea89c1ed072"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>6f8c104307d220108fb9fea89c1ed072</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>ef8c104307d220108fb9fea89c1ed075</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:33:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked}}=false</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>6f8c104307d220108fb9fea89c1ed072</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:28:34</sys_created_on>
+        <sys_id>2f8c104307d220108fb9fea89c1ed075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:28:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">80b85c4f079220108fb9fea89c1ed05c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
@@ -1208,10 +1628,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>a055a1b02f1660107979309cf699b6c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1257,37 +1677,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6cc</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="processing space booking">306d9df82fd260107979309cf699b65c</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:09</sys_created_on>
-        <sys_id>a055a1b02f1660107979309cf699b6cd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:40</sys_updated_on>
-        <ui_id>c0862b4a-a45f-4ba2-aa89-c8504d71f197</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=a055a1b02f1660107979309cf699b6cd"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">9455a1b02f1660107979309cf699b6a7</block>
+        <block display_value="">80b85c4f079220108fb9fea89c1ed050</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1308,10 +1698,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>d055a1b02f1660107979309cf699b6a8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:47</sys_updated_on>
         <ui_id>c05d62ec-f618-4a7c-bcd1-211280d514d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1331,7 +1721,7 @@
         <value>{{a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1055a1b02f1660107979309cf699b6b9</block>
+        <block display_value="">44b85c4f079220108fb9fea89c1ed055</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1352,10 +1742,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:09</sys_created_on>
         <sys_id>d455a1b02f1660107979309cf699b6b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 12:41:48</sys_updated_on>
         <ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1400,6 +1790,169 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_variable action="delete_multiple" query="model=306d9df82fd260107979309cf699b65c^sys_idNOT IN624ad0cf079220108fb9fea89c1ed097,a24ad0cf079220108fb9fea89c1ed09d"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b1178fd-ff5d-4ddb-b7c6-d0b815bf2410</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>findspace</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>findSpace</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="processing space booking">306d9df82fd260107979309cf699b65c</model>
+        <model_id>306d9df82fd260107979309cf699b65c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_306d9df82fd260107979309cf699b65c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:18:40</sys_created_on>
+        <sys_id>624ad0cf079220108fb9fea89c1ed097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>findSpace</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_624ad0cf079220108fb9fea89c1ed097</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:18:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6a21850e-0b5b-43a7-a4e7-fea2dfc82270</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="processing space booking">306d9df82fd260107979309cf699b65c</model>
+        <model_id>306d9df82fd260107979309cf699b65c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_306d9df82fd260107979309cf699b65c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:18:40</sys_created_on>
+        <sys_id>a24ad0cf079220108fb9fea89c1ed09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_a24ad0cf079220108fb9fea89c1ed09d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:18:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_306d9df82fd260107979309cf699b65c^sys_idNOT IN4c55a1b02f1660107979309cf699b691,9c55a1b02f1660107979309cf699b697"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
@@ -1414,11 +1967,11 @@
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>4c55a1b02f1660107979309cf699b691</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_306d9df82fd260107979309cf699b65c_current_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-10 15:00:08</sys_updated_on>
         <url/>
@@ -1437,11 +1990,11 @@
         <sys_created_on>2021-02-10 15:00:08</sys_created_on>
         <sys_id>9c55a1b02f1660107979309cf699b697</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_306d9df82fd260107979309cf699b65c_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-10 15:00:08</sys_updated_on>
         <url/>
@@ -1450,7 +2003,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=306d9df82fd260107979309cf699b65c^sys_idNOT INe765a5b02f1660107979309cf699b662"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e765a5b02f1660107979309cf699b662","name":"plan"}}</plan>
         <plan_id>306d9df82fd260107979309cf699b65c</plan_id>
         <snapshot>a66565b02f1660107979309cf699b68d</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -1458,12 +2011,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e765a5b02f1660107979309cf699b662</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:38</sys_updated_on>
-        <trigger display_value="">e365a5b02f1660107979309cf699b660</trigger>
+        <sys_updated_on>2021-02-17 09:37:02</sys_updated_on>
+        <trigger display_value="">f77ed0c307d220108fb9fea89c1ed07a</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1476,7 +2029,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>processing_space_booking</internal_name>
-        <label_cache>[{"name":"Created_1.current.sys_created_by","label":"Trigger➛space booking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_created_by"},{"name":"Created_1.current","label":"Trigger➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Table","label":"8➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Record","label":"8➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Table","label":"8➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Record","label":"8➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.table_name","label":"6➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.record","label":"6➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.capacity_size","label":"4➛transportation Record➛Capacity size","reference":"","reference_display":"Capacity size","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"capacity_size"},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.available_space","label":"4➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.table_name","label":"4➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record","label":"4➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.space_m3","label":"Trigger➛space booking Record➛Space [m3]","reference":"","reference_display":"Space [m3]","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_space_booking","column_name":"space_m3"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item.available_space","label":"2➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item","label":"2➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Table","label":"1➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records","label":"1➛transportation Records","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked","label":"8➛space booking Record➛Booked","reference":"","reference_display":"Booked","type":"boolean","base_type":"boolean","parent_table_name":"x_578933_transport_space_booking","column_name":"booked"},{"name":"Created_1.current.sys_id","label":"Trigger➛space booking Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_id"},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.error_message","label":"8➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.status","label":"8➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Table","label":"8➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record","label":"8➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.findspace","label":"Flow Variables➛findSpace","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0b1178fd-ff5d-4ddb-b7c6-d0b815bf2410"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.error_message","label":"7➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.status","label":"7➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"1a6ac9e7-d229-404b-97b4-e2a0bab9af6a.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"Created_1.current.sys_created_by","label":"Trigger➛space booking Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_578933_transport_space_booking","column_name":"sys_created_by"},{"name":"Created_1.current","label":"Trigger➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Table","label":"10➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5efb8ef7-a72c-4cb3-895b-92e82f807b68.Record","label":"10➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Table","label":"8➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a53c2dbe-2904-4ae1-a759-9ccf384df4f9.Record","label":"8➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.table_name","label":"7➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"68bf7cd7-7357-49e5-8a9e-b4751cc9dd92.record","label":"7➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.capacity_size","label":"4➛transportation Record➛Capacity size","reference":"","reference_display":"Capacity size","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"capacity_size"},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record.available_space","label":"4➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c9f88efc-9238-4f12-92b3-f091bbec73a4.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.table_name","label":"4➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"48ef9e35-c283-4bd6-bb68-f082cd0388e7.record","label":"4➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.space_m3","label":"Trigger➛space booking Record➛Space [m3]","reference":"","reference_display":"Space [m3]","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_space_booking","column_name":"space_m3"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item.available_space","label":"2➛transportation Record➛Available Space","reference":"","reference_display":"Available Space","type":"decimal","base_type":"decimal","parent_table_name":"x_578933_transport_transportation","column_name":"available_space"},{"name":"c05d62ec-f618-4a7c-bcd1-211280d514d5.item","label":"2➛transportation Record","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Table","label":"1➛transportation Table","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records","label":"1➛transportation Records","reference":"x_578933_transport_transportation","reference_display":"transportation","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.status","label":"7➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"7338ce12-84a1-42b3-a7ec-b7ce26f326cd.error_message","label":"7➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"43558423-4160-4138-b2d0-7ba642ad9d92.record","label":"8➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43558423-4160-4138-b2d0-7ba642ad9d92.table_name","label":"8➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87e24e0f-6da9-441b-a253-10c30fb3be69.record","label":"5➛space booking Record","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87e24e0f-6da9-441b-a253-10c30fb3be69.table_name","label":"5➛space booking Table","reference":"x_578933_transport_space_booking","reference_display":"space booking","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.booked","label":"Trigger➛space booking Record➛Booked","reference":"","reference_display":"Booked","type":"boolean","base_type":"boolean","parent_table_name":"x_578933_transport_space_booking","column_name":"booked"},{"name":"bf737830-8e47-48c4-a40f-fb5fac1f7470.Record","label":"10➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf737830-8e47-48c4-a40f-fb5fac1f7470.Table","label":"10➛Incident Table","reference":"incident","reference_display":"Incident","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>processing space booking</name>
         <natlang/>
@@ -1493,7 +2046,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a66565b02f1660107979309cf699b68d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1501,73 +2054,12 @@
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:34</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a66565b02f1660107979309cf699b68d"/>
     <sys_variable_value action="delete_multiple" query="document_key=a66565b02f1660107979309cf699b68d"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN076565b02f1660107979309cf699b6f3,366565b02f1660107979309cf699b6eb,3a6565b02f1660107979309cf699b6e5,3e6565b02f1660107979309cf699b6d3,726565b02f1660107979309cf699b6bc,7a6565b02f1660107979309cf699b6dd,7e6565b02f1660107979309cf699b6bf,fa6565b02f1660107979309cf699b6c3"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
-        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
-        <display_text/>
-        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <order>8</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>076565b02f1660107979309cf699b6f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <ui_id>5efb8ef7-a72c-4cb3-895b-92e82f807b68</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=076565b02f1660107979309cf699b6f3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>076565b02f1660107979309cf699b6f3</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>4f6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=076565b02f1660107979309cf699b6f3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>076565b02f1660107979309cf699b6f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>cb6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>caller_id={{Created_1.current.sys_created_by}}^short_description=All transportation are full</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>task_table</field>
-        <id>076565b02f1660107979309cf699b6f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>0b6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_hub_flow_component action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN366565b02f1660107979309cf699b6eb,3a6565b02f1660107979309cf699b6e5,726565b02f1660107979309cf699b6bc,7a6565b02f1660107979309cf699b6dd,7e6565b02f1660107979309cf699b6bf,8e7e90c307d220108fb9fea89c1ed037,967e90c307d220108fb9fea89c1ed04b,9e7e90c307d220108fb9fea89c1ed05f,da7e90c307d220108fb9fea89c1ed043,fa6565b02f1660107979309cf699b6c3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1577,16 +2069,16 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:36</sys_created_on>
         <sys_id>366565b02f1660107979309cf699b6eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>68bf7cd7-7357-49e5-8a9e-b4751cc9dd92</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=366565b02f1660107979309cf699b6eb"/>
@@ -1670,10 +2162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>3a6565b02f1660107979309cf699b6e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>48ef9e35-c283-4bd6-bb68-f082cd0388e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3a6565b02f1660107979309cf699b6e5"/>
@@ -1743,37 +2235,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6cc</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:35</sys_created_on>
-        <sys_id>3e6565b02f1660107979309cf699b6d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
-        <ui_id>c0862b4a-a45f-4ba2-aa89-c8504d71f197</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=3e6565b02f1660107979309cf699b6d3"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">9455a1b02f1660107979309cf699b6a7</block>
+        <block display_value="">80b85c4f079220108fb9fea89c1ed050</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1794,10 +2256,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>726565b02f1660107979309cf699b6bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>c05d62ec-f618-4a7c-bcd1-211280d514d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1830,10 +2292,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>7a6565b02f1660107979309cf699b6dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>a6d04f8c-8330-4f9d-a93c-f9eeb532b212</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a6565b02f1660107979309cf699b6dd"/>
@@ -1887,14 +2349,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>fe6565b02f1660107979309cf699b6df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
-        <value>state!=full</value>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value/>
         <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1055a1b02f1660107979309cf699b6b9</block>
+        <block display_value="">44b85c4f079220108fb9fea89c1ed055</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1915,10 +2377,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>7e6565b02f1660107979309cf699b6bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1963,8 +2425,156 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>5</order>
+        <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>8e7e90c307d220108fb9fea89c1ed037</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
+        <ui_id>87e24e0f-6da9-441b-a253-10c30fb3be69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e7e90c307d220108fb9fea89c1ed037"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e7e90c307d220108fb9fea89c1ed037</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>9a7e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e7e90c307d220108fb9fea89c1ed037</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>d67e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>booked=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e7e90c307d220108fb9fea89c1ed037"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>927e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>de7e90c307d220108fb9fea89c1ed038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>567e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>10</order>
+        <parent_ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>967e90c307d220108fb9fea89c1ed04b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:59</sys_updated_on>
+        <ui_id>bf737830-8e47-48c4-a40f-fb5fac1f7470</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=967e90c307d220108fb9fea89c1ed04b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>967e90c307d220108fb9fea89c1ed04b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>de7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=967e90c307d220108fb9fea89c1ed04b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>967e90c307d220108fb9fea89c1ed04b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>5e7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>caller_id={{Created_1.current.sys_created_by}}^description=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>967e90c307d220108fb9fea89c1ed04b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9a7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6c3</block>
+        <block display_value="">a38c104307d220108fb9fea89c1ed072</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -1977,7 +2587,138 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9e7e90c307d220108fb9fea89c1ed05f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:59</sys_updated_on>
+        <ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9e7e90c307d220108fb9fea89c1ed05f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9e7e90c307d220108fb9fea89c1ed05f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9e7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <value>space booking record booked?</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e7e90c307d220108fb9fea89c1ed05f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>9e7e90c307d220108fb9fea89c1ed05f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>1e7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked}}=false</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>9e7e90c307d220108fb9fea89c1ed05f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>5a7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>da7e90c307d220108fb9fea89c1ed043</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
+        <ui_id>f5dffb2a-0fd7-4118-afda-a72a92dcef4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da7e90c307d220108fb9fea89c1ed043"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da7e90c307d220108fb9fea89c1ed043</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>d67e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da7e90c307d220108fb9fea89c1ed043"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>da7e90c307d220108fb9fea89c1ed043</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>927e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>da7e90c307d220108fb9fea89c1ed043</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>567e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">80b85c4f079220108fb9fea89c1ed05c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
@@ -1985,10 +2726,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>fa6565b02f1660107979309cf699b6c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2043,10 +2784,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:36</sys_created_on>
         <sys_id>436565b02f1660107979309cf699b6f5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:38</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:37:03</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2098,7 +2839,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2115,8 +2856,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -2156,14 +2897,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:34</sys_created_on>
         <sys_id>226565b02f1660107979309cf699b690</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:34</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2179,7 +2920,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2237,14 +2978,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:34</sys_created_on>
         <sys_id>ea6565b02f1660107979309cf699b6ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:34</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2256,82 +2997,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN076565b02f1660107979309cf699b6f3,366565b02f1660107979309cf699b6eb,3a6565b02f1660107979309cf699b6e5,7a6565b02f1660107979309cf699b6dd"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
-        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
-        <display_text/>
-        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <order>8</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>076565b02f1660107979309cf699b6f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <ui_id>5efb8ef7-a72c-4cb3-895b-92e82f807b68</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=076565b02f1660107979309cf699b6f3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>076565b02f1660107979309cf699b6f3</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>4f6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <value>incident</value>
-        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=076565b02f1660107979309cf699b6f3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>field_values</field>
-        <id>076565b02f1660107979309cf699b6f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>cb6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>caller_id={{Created_1.current.sys_created_by}}^short_description=All transportation are full</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>task_table</field>
-        <id>076565b02f1660107979309cf699b6f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>0b6565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=076565b02f1660107979309cf699b6f3^sys_idNOT INc36565b02f1660107979309cf699b6f4"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>field_values</input_name>
-        <instance>076565b02f1660107979309cf699b6f3</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"short_description":{"scriptActive":false,"savedValue":""}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:36</sys_created_on>
-        <sys_id>c36565b02f1660107979309cf699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
-    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN366565b02f1660107979309cf699b6eb,3a6565b02f1660107979309cf699b6e5,7a6565b02f1660107979309cf699b6dd,8e7e90c307d220108fb9fea89c1ed037,967e90c307d220108fb9fea89c1ed04b,da7e90c307d220108fb9fea89c1ed043"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2341,16 +3007,16 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <order>6</order>
+        <order>7</order>
         <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:36</sys_created_on>
         <sys_id>366565b02f1660107979309cf699b6eb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:36</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>68bf7cd7-7357-49e5-8a9e-b4751cc9dd92</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=366565b02f1660107979309cf699b6eb"/>
@@ -2434,10 +3100,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>3a6565b02f1660107979309cf699b6e5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>48ef9e35-c283-4bd6-bb68-f082cd0388e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3a6565b02f1660107979309cf699b6e5"/>
@@ -2534,10 +3200,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>7a6565b02f1660107979309cf699b6dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>a6d04f8c-8330-4f9d-a93c-f9eeb532b212</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a6565b02f1660107979309cf699b6dd"/>
@@ -2591,45 +3257,252 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>fe6565b02f1660107979309cf699b6df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
-        <value>state!=full</value>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value/>
         <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
     </sys_variable_value>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN3e6565b02f1660107979309cf699b6d3,726565b02f1660107979309cf699b6bc,7e6565b02f1660107979309cf699b6bf,fa6565b02f1660107979309cf699b6c3"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6cc</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a6565b02f1660107979309cf699b6dd^sys_idNOT INc27e90c307d220108fb9fea89c1ed030"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>conditions</input_name>
+        <instance>7a6565b02f1660107979309cf699b6dd</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"conditions":{"scriptActive":true,"script":"var velocity \u003d fd_data.trigger.current.delivery_time;\nvar transportation;\nswitch(velocity) {\n    case \u0027days\u0027:\n        transportation \u003d \u0027airplane\u0027\n        break;\n    case \u0027months\u0027:\n        transportation \u003d \u0027truck\u0027\n        break;\n    case \u0027weeks\u0027:\n        transportation \u003d \u0027ship\u0027\n        break;\n    default:\n        transportation \u003d \u0027ship\u0027\n}\n\nreturn \"state\u003dfree^typ\u003d\" + transportation;\n\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n**\n**Requires GlideRecord encodedQuery response, example:\n**\"active\u003dtrue^short_descriptionSTARTSWITHtest\";\n*/"}}</script>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-02-10 15:00:35</sys_created_on>
-        <sys_id>3e6565b02f1660107979309cf699b6d3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>c27e90c307d220108fb9fea89c1ed030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
-        <ui_id>c0862b4a-a45f-4ba2-aa89-c8504d71f197</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=3e6565b02f1660107979309cf699b6d3"/>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>5</order>
+        <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>8e7e90c307d220108fb9fea89c1ed037</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
+        <ui_id>87e24e0f-6da9-441b-a253-10c30fb3be69</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8e7e90c307d220108fb9fea89c1ed037"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e7e90c307d220108fb9fea89c1ed037</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>9a7e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8e7e90c307d220108fb9fea89c1ed037</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>d67e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>booked=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8e7e90c307d220108fb9fea89c1ed037"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>927e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>de7e90c307d220108fb9fea89c1ed038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8e7e90c307d220108fb9fea89c1ed037</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>567e90c307d220108fb9fea89c1ed039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>10</order>
+        <parent_ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>967e90c307d220108fb9fea89c1ed04b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:59</sys_updated_on>
+        <ui_id>bf737830-8e47-48c4-a40f-fb5fac1f7470</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=967e90c307d220108fb9fea89c1ed04b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>967e90c307d220108fb9fea89c1ed04b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>de7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=967e90c307d220108fb9fea89c1ed04b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>967e90c307d220108fb9fea89c1ed04b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>5e7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>caller_id={{Created_1.current.sys_created_by}}^description=fd-scripted</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>967e90c307d220108fb9fea89c1ed04b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9a7e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=967e90c307d220108fb9fea89c1ed04b^sys_idNOT IN567e90c307d220108fb9fea89c1ed04c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>field_values</input_name>
+        <instance>967e90c307d220108fb9fea89c1ed04b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"description":{"scriptActive":true,"script":"\nreturn \u0027The spacebooking: \u0027 + fd_data.trigger.current.sys_id + \u0027could not booking, because of not space available!\u0027\n\n/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>567e90c307d220108fb9fea89c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <order>8</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>da7e90c307d220108fb9fea89c1ed043</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
+        <ui_id>f5dffb2a-0fd7-4118-afda-a72a92dcef4e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=da7e90c307d220108fb9fea89c1ed043"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>da7e90c307d220108fb9fea89c1ed043</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>d67e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <value>x_578933_transport_space_booking</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=da7e90c307d220108fb9fea89c1ed043"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>da7e90c307d220108fb9fea89c1ed043</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>927e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>da7e90c307d220108fb9fea89c1ed043</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>567e90c307d220108fb9fea89c1ed045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a66565b02f1660107979309cf699b68d^sys_idNOT IN726565b02f1660107979309cf699b6bc,7e6565b02f1660107979309cf699b6bf,9e7e90c307d220108fb9fea89c1ed05f,fa6565b02f1660107979309cf699b6c3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">9455a1b02f1660107979309cf699b6a7</block>
+        <block display_value="">80b85c4f079220108fb9fea89c1ed050</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2650,10 +3523,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>726565b02f1660107979309cf699b6bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>c05d62ec-f618-4a7c-bcd1-211280d514d5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2673,7 +3546,7 @@
         <value>{{a6d04f8c-8330-4f9d-a93c-f9eeb532b212.Records}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1055a1b02f1660107979309cf699b6b9</block>
+        <block display_value="">44b85c4f079220108fb9fea89c1ed055</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2694,10 +3567,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>7e6565b02f1660107979309cf699b6bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2743,7 +3616,7 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">e855a1b02f1660107979309cf699b6c3</block>
+        <block display_value="">a38c104307d220108fb9fea89c1ed072</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -2756,7 +3629,77 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9e7e90c307d220108fb9fea89c1ed05f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:59</sys_updated_on>
+        <ui_id>6f7fe904-9758-4c22-a0b6-b71df6bbe987</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9e7e90c307d220108fb9fea89c1ed05f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>9e7e90c307d220108fb9fea89c1ed05f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>9e7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <value>space booking record booked?</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e7e90c307d220108fb9fea89c1ed05f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>9e7e90c307d220108fb9fea89c1ed05f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>1e7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f5dffb2a-0fd7-4118-afda-a72a92dcef4e.Record.booked}}=false</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>9e7e90c307d220108fb9fea89c1ed05f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:57</sys_created_on>
+        <sys_id>5a7e90c307d220108fb9fea89c1ed062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:57</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">80b85c4f079220108fb9fea89c1ed05c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="processing space booking">a66565b02f1660107979309cf699b68d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>363bd85b-a9df-409d-8bba-332bf70479c9</parent_ui_id>
@@ -2764,10 +3707,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 15:00:35</sys_created_on>
         <sys_id>fa6565b02f1660107979309cf699b6c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 15:00:35</sys_updated_on>
+        <sys_updated_on>2021-02-17 09:36:58</sys_updated_on>
         <ui_id>38eae1ce-9206-4ffe-8588-053b4cb8fe09</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2812,6 +3755,169 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a66565b02f1660107979309cf699b68d^sys_idNOT IN0e7e90c307d220108fb9fea89c1ed022,4e7e90c307d220108fb9fea89c1ed01c"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6a21850e-0b5b-43a7-a4e7-fea2dfc82270</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="processing space booking">a66565b02f1660107979309cf699b68d</model>
+        <model_id>a66565b02f1660107979309cf699b68d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_a66565b02f1660107979309cf699b68d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>0e7e90c307d220108fb9fea89c1ed022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_0e7e90c307d220108fb9fea89c1ed022</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b1178fd-ff5d-4ddb-b7c6-d0b815bf2410</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>findspace</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>findSpace</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="processing space booking">a66565b02f1660107979309cf699b68d</model>
+        <model_id>a66565b02f1660107979309cf699b68d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_a66565b02f1660107979309cf699b68d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 09:36:56</sys_created_on>
+        <sys_id>4e7e90c307d220108fb9fea89c1ed01c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>findSpace</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_4e7e90c307d220108fb9fea89c1ed01c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 09:36:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a66565b02f1660107979309cf699b68d^sys_idNOT INa26565b02f1660107979309cf699b6b5,aa6565b02f1660107979309cf699b6aa"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
@@ -2826,11 +3932,11 @@
         <sys_created_on>2021-02-10 15:00:34</sys_created_on>
         <sys_id>a26565b02f1660107979309cf699b6b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a66565b02f1660107979309cf699b68d_table_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-10 15:00:34</sys_updated_on>
         <url/>
@@ -2849,11 +3955,11 @@
         <sys_created_on>2021-02-10 15:00:34</sys_created_on>
         <sys_id>aa6565b02f1660107979309cf699b6aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_a66565b02f1660107979309cf699b68d_current_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-02-10 15:00:34</sys_updated_on>
         <url/>

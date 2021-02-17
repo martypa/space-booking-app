@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert the following:</description>
+        <display_name>Field State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>12</order>
+        <snapshot/>
+        <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>2723098f071620108fb9fea89c1ed022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_atf_step_2723098f071620108fb9fea89c1ed022</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <table>x_578933_transport_transportation</table>
+        <test display_value="SpaceBooking Basic Booking Test">8202a84707d220108fb9fea89c1ed07f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=2723098f071620108fb9fea89c1ed022"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>2b23098f071620108fb9fea89c1ed024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value>x_578933_transport_transportation</value>
+        <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>210</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>2f23098f071620108fb9fea89c1ed023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>6723098f071620108fb9fea89c1ed024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>6b23098f071620108fb9fea89c1ed023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>a323098f071620108fb9fea89c1ed024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>a723098f071620108fb9fea89c1ed023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>e323098f071620108fb9fea89c1ed023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>2723098f071620108fb9fea89c1ed022</document_key>
+        <order>410</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>ef23098f071620108fb9fea89c1ed023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>sys_atf_step_2723098f071620108fb9fea89c1ed022</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Assert the following:</description><display_name>Field State Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>12</order><snapshot/><step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>2723098f071620108fb9fea89c1ed022</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Field State Validation</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>sys_atf_step_2723098f071620108fb9fea89c1ed022</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><table>x_578933_transport_transportation</table><test display_value="SpaceBooking Basic Booking Test">8202a84707d220108fb9fea89c1ed07f</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=2723098f071620108fb9fea89c1ed022"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>2b23098f071620108fb9fea89c1ed024</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value>x_578933_transport_transportation</value><variable display_value="Table">80f953535320220002c6435723dc340f</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>210</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>2f23098f071620108fb9fea89c1ed023</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>6723098f071620108fb9fea89c1ed024</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>6b23098f071620108fb9fea89c1ed023</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Read only">592a17535320220002c6435723dc34d7</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>310</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>a323098f071620108fb9fea89c1ed024</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>a723098f071620108fb9fea89c1ed023</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>e323098f071620108fb9fea89c1ed023</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2723098f071620108fb9fea89c1ed022</document_key><order>410</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 12:17:19</sys_created_on><sys_id>ef23098f071620108fb9fea89c1ed023</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 12:17:19</sys_updated_on><value/><variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1053273777</payload_hash>
+        <record_name>Field State Validation</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:17:19</sys_created_on>
+        <sys_id>a723098f071620108fb9fea89c1ed027</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177afec5e030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:17:19</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>ef23098ffe162010770ce218ecccfc26</update_guid>
+        <update_guid_history>ef23098ffe162010770ce218ecccfc26:1053273777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 12:18:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>339fa9bb788448d497dd6a7e6d2a71c4</sys_id>
+        <sys_metadata>2723098f071620108fb9fea89c1ed022</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>sys_atf_step_2723098f071620108fb9fea89c1ed022</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_2723098f071620108fb9fea89c1ed022">a723098f071620108fb9fea89c1ed027</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 12:18:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
