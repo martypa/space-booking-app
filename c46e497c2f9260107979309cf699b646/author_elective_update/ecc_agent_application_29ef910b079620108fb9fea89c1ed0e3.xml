@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
+    <ecc_agent_application action="DELETE">
+        <default_mid_server display_value="windows_server">194e5547079620108fb9fea89c1ed0c8</default_mid_server>
+        <included_in_app_all>true</included_in_app_all>
+        <name>TestApplication</name>
+        <sys_class_name>ecc_agent_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 14:22:58</sys_created_on>
+        <sys_id>29ef910b079620108fb9fea89c1ed0e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestApplication</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>ecc_agent_application_29ef910b079620108fb9fea89c1ed0e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 14:22:58</sys_updated_on>
+    </ecc_agent_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>ecc_agent_application_29ef910b079620108fb9fea89c1ed0e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="INSERT_OR_UPDATE"><default_mid_server display_value="windows_server">194e5547079620108fb9fea89c1ed0c8</default_mid_server><included_in_app_all>true</included_in_app_all><name>TestApplication</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-17 14:22:58</sys_created_on><sys_id>29ef910b079620108fb9fea89c1ed0e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TestApplication</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>ecc_agent_application_29ef910b079620108fb9fea89c1ed0e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-17 14:22:58</sys_updated_on></ecc_agent_application></record_update>]]></payload>
+        <payload_hash>1083832058</payload_hash>
+        <record_name>TestApplication</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 14:22:58</sys_created_on>
+        <sys_id>88ff590b079620108fb9fea89c1ed065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177b05f66880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 14:22:58</sys_updated_on>
+        <type>MID Server Application</type>
+        <update_guid>c0ff590bb7962010097276fb1982e365</update_guid>
+        <update_guid_history>c0ff590bb7962010097276fb1982e365:1083832058</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TestApplication">77ff5d0b079620108fb9fea89c1ed0fa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 14:23:14</sys_created_on>
+        <sys_db_object display_value="" name="ecc_agent_application">ecc_agent_application</sys_db_object>
+        <sys_id>78862e3f0c42447aaa8753ea1a0bf204</sys_id>
+        <sys_metadata>29ef910b079620108fb9fea89c1ed0e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestApplication</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>ecc_agent_application_29ef910b079620108fb9fea89c1ed0e3</sys_update_name>
+        <sys_update_version display_value="ecc_agent_application_29ef910b079620108fb9fea89c1ed0e3">88ff590b079620108fb9fea89c1ed065</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 14:23:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

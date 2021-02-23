@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="transportation" max_length="40" name="x_578933_transport_transportation" sizeclass="3" type="collection">
+    <element label="transportation" max_length="40" name="x_578933_transport_transportation" sizeclass="0" type="collection">
         <element label="Available Space" max_length="20" name="available_space" read_only="true" type="decimal"/>
         <element label="Capacity size" max_length="20" name="capacity_size" type="decimal"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
