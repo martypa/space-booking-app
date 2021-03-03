@@ -28,6 +28,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>application/java-archive</content_type>
+        <encryption_context/>
         <file_name>transportation-1.5.jar</file_name>
         <hash>bb4133b9b3bdc012c1459dc4a9e8b193cb2cb043b459e2ca254276421694b7df</hash>
         <image_height/>

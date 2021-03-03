@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+	/* widget controller */
+	var c = this;
+
+	var shared = c.widget.options.shared;
+	shared.data = c.data;
+	
+	
+	
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form {
+ margin-left: 10px; 
+}
+
+
+.button {
+ margin-top: 20px;
+ margin-left: -15px;
+  
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>newtaskform</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>newTaskForm</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 07:18:16</sys_created_on>
+        <sys_id>f56b3a83ff2220101ff987f8b721f1a9</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>newTaskForm</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sp_widget_f56b3a83ff2220101ff987f8b721f1a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 13:13:44</sys_updated_on>
+        <template><![CDATA[<div class="form">
+  <div class="row">
+    <div class="col-25">
+      <label for="description">Short Description</label>   
+    </div>
+    <div class="col-75">
+      <input id="description" type="text" ng-model="data.short_description"/>  
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="startDate">Start date</label>   
+    </div>
+    <div class="col-75">
+      <input id="startDate" type="date" ng-model="data.start_date"/>  
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="endDate">End date</label>   
+    </div>
+    <div class="col-75">
+      <input id="endDate" type="date" ng-model="data.end_date"/> 
+    </div>
+  </div>
+
+  <div class="row" ng-show="true">
+    <div class="col-25">
+      <label for="dependencyTask">Dependency Task</label>   
+    </div>
+    <div class="col-75">
+      <sn-record-picker name="dependencyTask" style="width: 200px" field="data.dependency_task" table="'x_578933_transport_project_task'"
+                        default-query=""
+                        display-field="'short_description'" value-field="'sys_id'"
+                        search-fields="'short_description'" page-size="100">
+      </sn-record-picker>
+    </div>
+  </div>
+
+</div>
+
+
+]]></template>
+    </sp_widget>
+</record_update>

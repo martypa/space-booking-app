@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_set">
+    <catalog_dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>false</always_replace>
+        <applies_to>item</applies_to>
+        <catalog_item display_value="Space Booking">1befc95d07e260108fb9fea89c1ed0f7</catalog_item>
+        <dl_definition display_value="Space Booking LookUp">f7965915072660108fb9fea89c1ed00c</dl_definition>
+        <matcher_table>x_578933_transport_space_booking</matcher_table>
+        <matcher_table_field>company</matcher_table_field>
+        <source_catalog_variable>IO:d35a819907e260108fb9fea89c1ed02b</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>company</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-24 13:32:27</sys_created_on>
+        <sys_id>62779555072660108fb9fea89c1ed00f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_set_62779555072660108fb9fea89c1ed00f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-24 13:32:27</sys_updated_on>
+        <variable_set/>
+    </catalog_dl_definition_rel_set>
+</record_update>

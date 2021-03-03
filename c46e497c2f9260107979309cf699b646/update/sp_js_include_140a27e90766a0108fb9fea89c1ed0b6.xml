@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>muuri.min.js</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 18:51:34</sys_created_on>
+        <sys_id>140a27e90766a0108fb9fea89c1ed0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>muuri.min.js</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_ui_script display_value="x_578933_transport.muuri.min.js">c11ae7e90766a0108fb9fea89c1ed0de</sys_ui_script>
+        <sys_update_name>sp_js_include_140a27e90766a0108fb9fea89c1ed0b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-25 18:51:34</sys_updated_on>
+        <url/>
+    </sp_js_include>
+</record_update>

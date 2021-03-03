@@ -31,10 +31,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3d60dd302fd260107979309cf699b6dd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-17 08:46:01</sys_updated_on>
-            <value>2_3_days</value>
+            <sys_updated_on>2021-02-24 14:18:02</sys_updated_on>
+            <value>Days</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -51,10 +51,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7160dd302fd260107979309cf699b6e4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-17 08:46:01</sys_updated_on>
-            <value>months</value>
+            <sys_updated_on>2021-02-24 14:18:06</sys_updated_on>
+            <value>Months</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -71,10 +71,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7960dd302fd260107979309cf699b6e1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-17 08:46:01</sys_updated_on>
-            <value>weeks</value>
+            <sys_updated_on>2021-02-24 14:18:08</sys_updated_on>
+            <value>Weeks</value>
         </sys_choice>
     </sys_choice>
 </record_update>

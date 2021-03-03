@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_578933_transport.GanttHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GanttHandler</name>
+        <script><![CDATA[var GanttHandler = Class.create();
+
+
+GanttHandler.prototype = {
+	initialize: function() {
+	},
+
+
+
+	getAllProjectTasks :function(){
+		var projectTasks = new GlideRecord('x_578933_transport_project_task');
+		var projectTaskObjects = [];
+		projectTasks.query();
+		while(projectTasks.next()){
+			var object = this.createGanttObjectFromRecord(projectTasks);
+			projectTaskObjects.push(object);
+		}
+		return projectTaskObjects;
+	},
+	
+	createNewTask: function(data){
+		var projectTask = new GlideRecord('x_578933_transport_project_task');
+		projectTask.initialize();
+		projectTask.setValue('short_description', data.short_description);
+		projectTask.setValue('work_start', data.start_date);
+		projectTask.setValue('work_end', data.end_date);
+		projectTask.setValue('state', 'open');
+		projectTask.setValue('gantt_number', Math.ceil(Math.random() * 10000));
+		projectTask.insert();
+				
+		if(data.dependency_task.value != ""){
+			this.createTaskDependency(projectTask, data.dependency_task.value);
+			return this.createGanttObjectFromRecordWithDependency(projectTask, data.dependency_task.value);
+		}
+		return this.createGanttObjectFromRecord(projectTask);
+	},
+	
+	createTaskDependency: function(task, dependency){	
+		var dependencyRecords = new GlideRecord('x_578933_transport_task_dependency');
+		dependencyRecords.initialize();
+		dependencyRecords.setValue('task', task.getUniqueValue());
+		dependencyRecords.setValue('depends_on', dependency);
+		return dependencyRecords.insert();
+	},
+
+	createGanttObjectFromRecord: function(projectTasks){
+		return object = {
+			"pID": projectTasks.getValue('gantt_number'),
+			"pName": projectTasks.getValue('short_description'),
+			"pStart": projectTasks.getValue('work_start'),
+			"pEnd": projectTasks.getValue('work_end'),
+			"pPlanStart": projectTasks.getValue('work_start'),
+			"pPlanEnd": projectTasks.getValue('work_end'),
+			"pClass": "ggroupblack",
+			"pLink": "",
+			"pMile": 0,
+			"pRes": "Brian",
+			"pComp": 0,
+			"pGroup": 1,
+			"pParent": 0,
+			"pOpen": 1,
+			"pDepend": "",
+			"pCaption": "",
+			"pCost":  "",
+			"pNotes": "",
+			"pBarText": "",
+			"category": "",
+			"sector": ""
+		};
+	},
+	
+	createGanttObjectFromRecordWithDependency: function(projectTasks, dependencyRecordId){
+		var projectTask = new GlideRecord('x_578933_transport_project_task');
+		projectTask.get(dependencyRecordId);
+		
+		return object = {
+			"pID": projectTasks.getValue('gantt_number'),
+			"pName": projectTasks.getValue('short_description'),
+			"pStart": projectTasks.getValue('work_start'),
+			"pEnd": projectTasks.getValue('work_end'),
+			"pPlanStart": projectTasks.getValue('work_start'),
+			"pPlanEnd": projectTasks.getValue('work_end'),
+			"pClass": "ggroupblack",
+			"pLink": "",
+			"pMile": 0,
+			"pRes": "Brian",
+			"pComp": 0,
+			"pGroup": 1,
+			"pParent": 0,
+			"pOpen": 1,
+			"pDepend": projectTask.getValue('gantt_number'),
+			"pCaption": "",
+			"pCost":  "",
+			"pNotes": "",
+			"pBarText": "",
+			"category": "",
+			"sector": ""
+		};
+	},
+
+
+
+
+	type: 'GanttHandler'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 14:59:49</sys_created_on>
+        <sys_id>514b9772ffa620101ff987f8b721f145</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>GanttHandler</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_script_include_514b9772ffa620101ff987f8b721f145</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 14:30:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

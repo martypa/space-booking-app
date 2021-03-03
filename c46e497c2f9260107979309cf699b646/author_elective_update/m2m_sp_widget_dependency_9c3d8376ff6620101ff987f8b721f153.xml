@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="jQuery.Gantt">a29a8bb2ff6620101ff987f8b721f199</sp_dependency>
+        <sp_widget display_value="projectmanagement">bb4a4f72ff6620101ff987f8b721f114</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:57:31</sys_created_on>
+        <sys_id>9c3d8376ff6620101ff987f8b721f153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jQuery.Gantt.projectmanagement</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_9c3d8376ff6620101ff987f8b721f153</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 13:57:31</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>m2m_sp_widget_dependency_9c3d8376ff6620101ff987f8b721f153</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="jQuery.Gantt">a29a8bb2ff6620101ff987f8b721f199</sp_dependency><sp_widget display_value="projectmanagement">bb4a4f72ff6620101ff987f8b721f114</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-01 13:57:31</sys_created_on><sys_id>9c3d8376ff6620101ff987f8b721f153</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jQuery.Gantt.projectmanagement</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>m2m_sp_widget_dependency_9c3d8376ff6620101ff987f8b721f153</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-01 13:57:31</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1291839734</payload_hash>
+        <record_name>jQuery.Gantt.projectmanagement</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:57:31</sys_created_on>
+        <sys_id>d43d8376ff6620101ff987f8b721f156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177ee146b000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 13:57:31</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>103d83760a6620106176fc5d11e19f56</update_guid>
+        <update_guid_history>103d83760a6620106176fc5d11e19f56:1291839734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="jQuery.Gantt.projectmanagement">33621f7aff6620101ff987f8b721f132</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 14:20:25</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>c011b2221cf1499eb2d2b09b96bd7189</sys_id>
+        <sys_metadata>9c3d8376ff6620101ff987f8b721f153</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jQuery.Gantt.projectmanagement</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_9c3d8376ff6620101ff987f8b721f153</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_9c3d8376ff6620101ff987f8b721f153">d43d8376ff6620101ff987f8b721f156</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 14:20:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

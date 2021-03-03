@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format>png</format>
+        <height>176</height>
+        <image>b3eccf36ff6620101ff987f8b721f188</image>
+        <name>icon_sprite.png</name>
+        <size_bytes>808</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:56:20</sys_created_on>
+        <sys_id>c4ec4f36ff6620101ff987f8b721f1a2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>icon_sprite.png</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>db_image_c4ec4f36ff6620101ff987f8b721f1a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 13:56:24</sys_updated_on>
+        <thumbnail/>
+        <width>16</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#eaeaea</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>1e38fe9b6c51b837ba80c730c7f58283e1a60b2acdc758ce47f9415705c371c0</hash>
+        <image_height>176</image_height>
+        <image_width>16</image_width>
+        <size_bytes>808</size_bytes>
+        <size_compressed>831</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:56:24</sys_created_on>
+        <sys_id>b3eccf36ff6620101ff987f8b721f188</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 13:56:24</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>c4ec4f36ff6620101ff987f8b721f1a2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="b3eccf36ff6620101ff987f8b721f188">b3eccf36ff6620101ff987f8b721f188</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:56:24</sys_created_on>
+        <sys_id>f3eccf36ff6620101ff987f8b721f188</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>ASgD1/yJUE5HDQoaCgAAAA1JSERSAAAAEAAAALAIBgAAAAbv7o8AAALvSURBVGje7ZrNahRBEIA3ePEQ2MvqSYKIDCIaIwM+QPQBcvIQ9iBEVy/qxZ+TR38OngS9CuIT6EFNlOSU1YsPseBGFklUnP1zYaySnlC23T1VM2Fj1lootnu65mNTXVXdXZ1KmqaVMlKZUMDM4SOZVI387ksBtaWLjTso2JYCajdu3b6bmg+28RkbQF+mEIkRfR+ZEbO3ihpxFwEaCwqwHMnZlySUhpG9FgvZTyeArD+mhAISO16ORTawIHFRI0YomlDGBSAB5FV26TgHQY6DLIBcMrJgnuUCpkDONpvvHw6Hw4/wfISCbXwGY+eMjhtw8tTp2Y2Nz2+h/wTkzNHo2BX43odtfNbpdN6dmJ2b8wJev1l+1uv1HtNwpj8bxh4tr6w89wH2/0iSL/iOBYhJfwZ1UPcvAPyNh/r9/nfLUOnq6tpLmtpQB3VdfnBgMBh8A6VpOyORxDKNOqjrtMHP0ejT1WvXz1tTui04hjpeI8L3hVar9Qra8yAHzZRNmfY8jqFO0JGg/XRzc+vFvfsPbsI0XkbBNj7DMZYnQn8R5EPmSKa9GPREzQcTBSBzXaN7A/bCkr2cbfmLAKr0vEBCmbe8r68347LLe1QKYC/tRY24DRED1JUVENqJ+JwpF2AisVYYQOsHEkDD3vIbSLXUdt/kilLnhaiQDUJbfi4gFs2CxoICrFCuG+HnA6qcJMlXlMIAzvroAtR9x38cywV0u90tXyybsdxZaAfyQXssNthRAP7ktgigwaSAfyal1en+wJK9kA90GhUwOdHYkNQQnBttSQ3BB2DXEJwASQ3Bd1aISgEkNYSQEVk1BHVlBew8IJQHWJ4YygNcgCsP0CwVzgeuPEBvOjjhHJUChPKAxIjOPKD5QAG7WoD4o5bIWp1zaokpd4fiqyWyl3dfLbE4gOQK+fGf1BILAWKrr66sgPHng9w7BhYgdMcQOrHQPYH3jiG0W09d/0Jg3zGIAfYdA9sGvjsGCSBmzcJ/6Mq/AHAE/pAmefSeAAAAAElFTkSuQmCCu2VnkSgDAAA=</data>
+        <length>1096</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="b3eccf36ff6620101ff987f8b721f188">b3eccf36ff6620101ff987f8b721f188</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:56:24</sys_created_on>
+        <sys_id>77eccf36ff6620101ff987f8b721f188</sys_id>
+    </sys_attachment_doc>
+</record_update>

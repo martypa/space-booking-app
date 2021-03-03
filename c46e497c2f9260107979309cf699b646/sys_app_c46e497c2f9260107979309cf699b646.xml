@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>true</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <installed_as_dependency>false</installed_as_dependency>
@@ -45,6 +45,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>Transport-multimodal_5-1400x550.jpg</file_name>
         <hash>3137fc0e6640b099eca54f23e7fc0fca2a714c4f2ac212e6b7eb264a53ef3447</hash>
         <image_height/>

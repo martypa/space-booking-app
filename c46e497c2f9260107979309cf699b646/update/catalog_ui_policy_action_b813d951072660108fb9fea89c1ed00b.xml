@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:7c1acd5907e260108fb9fea89c1ed025</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-24 13:13:16</sys_created_on>
+        <sys_id>b813d951072660108fb9fea89c1ed00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dangerous_goods_description</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b813d951072660108fb9fea89c1ed00b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-24 13:13:16</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show dangerous description field">37d21951072660108fb9fea89c1ed042</ui_policy>
+        <variable>dangerous_goods_description</variable>
+        <variable_set display_value="Space Booking Variable Set">d71295dd07e260108fb9fea89c1ed0b1</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

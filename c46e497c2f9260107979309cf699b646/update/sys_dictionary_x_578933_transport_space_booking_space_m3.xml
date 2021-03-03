@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Space [m3]</column_label>
+        <column_label>Space</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 13:28:44</sys_created_on>
-        <sys_id>9960dd302fd260107979309cf699b673</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Space [m3]</sys_name>
+        <sys_id>cf62540b079220108fb9fea89c1ed09e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Space</sys_name>
         <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
         <sys_policy/>
         <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
         <sys_update_name>sys_dictionary_x_578933_transport_space_booking_space_m3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-10 13:28:44</sys_updated_on>
+        <sys_updated_on>2021-02-24 14:00:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
