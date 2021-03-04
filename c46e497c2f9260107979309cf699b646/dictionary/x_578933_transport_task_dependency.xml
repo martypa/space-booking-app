@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="task dependency" max_length="40" name="x_578933_transport_task_dependency" type="collection">
+        <element label="depends On" max_length="32" name="depends_on" reference="x_578933_transport_project_task" type="reference"/>
+        <element label="task" max_length="32" name="task" reference="x_578933_transport_project_task" type="reference"/>
+        <index name="index">
+            <element name="depends_on"/>
+        </index>
+        <index name="index2">
+            <element name="task"/>
+        </index>
+    </element>
+</database>

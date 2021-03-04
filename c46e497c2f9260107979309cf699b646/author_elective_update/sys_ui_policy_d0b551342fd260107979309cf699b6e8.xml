@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_578933_transport_space_booking">dangerous_goodsNSAMEASdangerous_goods^EQ<item endquery="false" field="dangerous_goods" goto="false" newquery="false" operator="NSAMEAS" or="false" value="dangerous_goods"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setVisible('dangerous_good_description', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setVisible('dangerous_good_description', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>set dangerous good description visible when dangerous good choice is true</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:51:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0b551342fd260107979309cf699b6e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>set dangerous good description visible when dangerous good choice is true</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_ui_policy_d0b551342fd260107979309cf699b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:54:33</sys_updated_on>
+        <table>x_578933_transport_space_booking</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>1a3b709edbb9641842b321c4059619e9</instance_id>
+        <instance_name>dev104945</instance_name>
+        <name>sys_ui_policy_d0b551342fd260107979309cf699b6e8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_578933_transport_space_booking"&gt;dangerous_goodsNSAMEASdangerous_goods^EQ&lt;item endquery="false" field="dangerous_goods" goto="false" newquery="false" operator="NSAMEAS" or="false" value="dangerous_goods"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	g_form.setVisible('dangerous_good_description', false);
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.setVisible('dangerous_good_description', true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;set dangerous good description visible when dangerous good choice is true&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-10 13:51:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d0b551342fd260107979309cf699b6e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;set dangerous good description visible when dangerous good choice is true&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Transport Reservation" source="x_578933_transport"&gt;c46e497c2f9260107979309cf699b646&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Transport Reservation"&gt;c46e497c2f9260107979309cf699b646&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d0b551342fd260107979309cf699b6e8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-10 13:54:33&lt;/sys_updated_on&gt;&lt;table&gt;x_578933_transport_space_booking&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1252188645</payload_hash>
+        <record_name>set dangerous good description visible when dangerous good choice is true</record_name>
+        <reverted_from/>
+        <source>c8c051fc2f9260107979309cf699b695</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:54:33</sys_created_on>
+        <sys_id>6f4619742fd260107979309cf699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778c38df550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:54:33</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>a746197475d2601030bb5d6f0d58d0f7</update_guid>
+        <update_guid_history>a746197475d2601030bb5d6f0d58d0f7:1252188645,96f5d17493d26010bb812d721ecea4d2:-922120524,14b5957440d26010132aa1fa9a864107:-2065977149</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:55:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>46d3d0831cca40c6b07d26310025ef44</sys_id>
+        <sys_metadata>d0b551342fd260107979309cf699b6e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>set dangerous good description visible when dangerous good choice is true</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent display_value="space booking">c9609d302fd260107979309cf699b6ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_d0b551342fd260107979309cf699b6e8</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_d0b551342fd260107979309cf699b6e8">6f4619742fd260107979309cf699b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:55:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

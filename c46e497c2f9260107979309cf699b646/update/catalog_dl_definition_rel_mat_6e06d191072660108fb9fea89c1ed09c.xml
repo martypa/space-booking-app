@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition_rel_mat">
+    <catalog_dl_definition_rel_mat action="INSERT_OR_UPDATE">
+        <applies_to>set</applies_to>
+        <catalog_item/>
+        <dl_definition display_value="LookUp SpaceBooking">8fc59dd1072660108fb9fea89c1ed057</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_578933_transport_space_booking</matcher_table>
+        <matcher_table_field>space_m3</matcher_table_field>
+        <source_catalog_variable>IO:1ce84d1907e260108fb9fea89c1ed035</source_catalog_variable>
+        <source_table/>
+        <source_table_field/>
+        <source_variable>space_m3</source_variable>
+        <sys_class_name>catalog_dl_definition_rel_mat</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-24 13:26:11</sys_created_on>
+        <sys_id>6e06d191072660108fb9fea89c1ed09c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IO:1ce84d1907e260108fb9fea89c1ed035</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>catalog_dl_definition_rel_mat_6e06d191072660108fb9fea89c1ed09c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-24 14:02:09</sys_updated_on>
+        <variable_set display_value="Space Booking Variable Set">d71295dd07e260108fb9fea89c1ed0b1</variable_set>
+    </catalog_dl_definition_rel_mat>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="space booking" max_length="40" name="x_578933_transport_space_booking" sizeclass="9" type="collection">
+        <element label="booked" max_length="40" name="booked" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="40" name="company" type="string"/>
+        <element label="Dangerous Goods" max_length="40" name="dangerous_goods" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Dangerous Good Description" mandatory="true" max_length="120" name="dangerous_good_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Delivery Time" max_length="40" name="delivery_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Days" sequence="0" value="Days"/>
+                <element inactive_on_update="false" label="Months" sequence="1" value="Months"/>
+                <element inactive_on_update="false" label="Weeks" sequence="2" value="Weeks"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Further details" max_length="1000" name="further_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="Space" max_length="15" name="space_m3" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Weather Description" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Temperature" max_length="40" name="u_string_2" read_only="true" type="string"/>
+    </element>
+</database>

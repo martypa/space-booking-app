@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($rootScope, $scope, $http, spUtil, spModal) {
+	/* widget controller */
+	var c = this;
+	var g = new JSGantt.GanttChart(document.getElementById('gantt'), 'day');
+
+	initializeGantt();
+
+
+	function initializeGantt() {
+		g.setOptions({
+			vShowComp: 0,
+			vShowRes: 0,
+			vScrollTo: 'today',
+			vShowDeps: 1
+		});
+		addObjectArrayToGant(c.data.items);
+	}
+
+
+	function addObjectArrayToGant(objectArray){
+		console.log(objectArray);
+		objectArray.forEach(element => {
+			g.AddTaskItemObject(element);
+		});
+		g.Draw();
+	}
+
+
+	$scope.createTask = function(){
+		var attachment = {
+			'data': {
+				
+			}
+		}
+		spModal.open({
+			title: "Create new Task",
+			widget: "newtaskform",
+			shared: attachment,
+			backdrop: 'static',
+			buttons: [{
+				label: '${Cancel}',
+				cancel: true
+			},
+								{
+									label: '${Save}',
+									primary: true
+								}
+							 ]
+		}).then(function(result){
+			if(result){
+				c.server.get({
+					order: 'createTask',
+					data: attachment
+				}).then(function(result){
+					console.log(result.data.task);
+					g.AddTaskItemObject(result.data.task);
+					g.Draw();
+				}, function(err){
+					console.log(err);
+				})
+			};
+		});
+	}
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-head {
+ 	float: right;
+}
+
+.panel-heading {
+  height: 120px; 
+}
+
+.gantt {
+ 	margin: 10px; 
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>projectmanagement</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>projectmanagement</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	this.ganttHandler = new GanttHandler();
+	
+
+	if(input && input.order == 'createTask'){
+		data.task = ganttHandler.createNewTask(input.data.data);
+	}else{
+		data.items = this.ganttHandler.getAllProjectTasks();
+	}
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 13:44:55</sys_created_on>
+        <sys_id>bb4a4f72ff6620101ff987f8b721f114</sys_id>
+        <sys_mod_count>132</sys_mod_count>
+        <sys_name>projectmanagement</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sp_widget_bb4a4f72ff6620101ff987f8b721f114</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 14:56:20</sys_updated_on>
+        <template><![CDATA[<div id="arctive-projectmanagement" class="panel panel-default">
+
+  <div class="panel-heading">
+    <h2>
+      Projektprozess
+    </h2>
+     <button type="button" class="btn-head btn btn-success btn-sm" ng-click="createTask()">Create Task</button>
+  </div>
+
+  <div id="gantt" class="gantt">
+  </div>
+
+
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

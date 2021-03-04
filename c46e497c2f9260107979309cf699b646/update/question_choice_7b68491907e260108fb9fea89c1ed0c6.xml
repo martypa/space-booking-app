@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="How quickly should the transport arrive at its destination?">fc08451907e260108fb9fea89c1ed08a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-24 12:27:29</sys_created_on>
+        <sys_id>7b68491907e260108fb9fea89c1ed0c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Months</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>question_choice_7b68491907e260108fb9fea89c1ed0c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-24 14:14:06</sys_updated_on>
+        <text>Months</text>
+        <value>Months</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=7b68491907e260108fb9fea89c1ed0c6"/>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_dl_definition">
+    <catalog_dl_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>set</applies_to>
+        <catalog_item/>
+        <matcher_table>x_578933_transport_space_booking</matcher_table>
+        <name>LookUp SpaceBooking</name>
+        <run_on_form_change>true</run_on_form_change>
+        <run_on_insert>true</run_on_insert>
+        <run_on_update>false</run_on_update>
+        <source_table/>
+        <sys_class_name>catalog_dl_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-24 13:25:29</sys_created_on>
+        <sys_id>8fc59dd1072660108fb9fea89c1ed057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LookUp SpaceBooking</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>catalog_dl_definition_8fc59dd1072660108fb9fea89c1ed057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-24 13:25:29</sys_updated_on>
+        <variable_set display_value="Space Booking Variable Set">d71295dd07e260108fb9fea89c1ed0b1</variable_set>
+    </catalog_dl_definition>
+</record_update>

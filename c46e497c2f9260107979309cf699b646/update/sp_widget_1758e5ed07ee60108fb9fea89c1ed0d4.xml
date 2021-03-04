@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope, $scope, $http, spUtil, spModal){
+	var c = this;
+
+
+
+	$scope.getAllPhotos = function(){
+		console.log("Get All Photos: ");
+		c.server.get({keyword: 'getAllPhotos'}).then(function(result){
+			console.log(result.data);
+			$scope.photos = result.data.items;
+		}, function(err){
+			console.log(err);
+		});
+	}
+
+	
+	$scope.getPhotosOfBooking = function(){
+		$scope.photos = [];
+		if($scope.booking.value != ""){
+			c.server.get({
+				keyword: 'getBookingPhotos', 
+				sys_id: $scope.booking.value}).then(function(result){
+				$scope.photos.data = result.data.items.data;
+				$scope.photos.sys_id = result.data.items.sys_id;
+			}, function(err){
+				console.log(err);
+			});
+		}
+	}
+	
+	$scope.openAttachment = function(index){
+		console.log($scope.photos.sys_id[index]);
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.test {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-item: center;
+  align-content: space-around;
+}
+
+
+.item-content {
+  margin: 2px;
+  max-height: 150px;
+  max-width: 150px;
+  border: 1px solid black;
+}
+
+
+.content {
+  min-height: 150px;
+  max-height: 250px;
+  overflow: scroll;
+  margin-top: 20px;
+}
+
+
+#picker {
+  
+ margin: 10px; 
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>photos</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Photos</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	
+	console.log('Das ist input: ' + input);
+
+	if(input){
+		switch(input.keyword){
+			case 'getBookingPhotos':
+				data.items = getBookingPhotos(input.sys_id);
+				break;
+			case 'getAllPhotos':
+				data.items = getAllPhotos();
+				break;
+			default:
+				data.items = setUpDefaultData();
+		}
+
+	}
+
+
+
+	function setUpDefaultData(){
+		var items = [];
+		items.push("0214ADAF-1C76-4E34-966F-0EBD09534402.png");
+		return items;
+	}
+
+
+
+	function getAllPhotos(){
+		var items = [];
+
+		var photos = new GlideRecord("db_image");
+		photos.query();
+
+		while(photos.next()) {
+			if($sp.canReadRecord(photos)){
+				items.push(photos.getDisplayValue('name'));
+			}
+		}
+		return items;
+	}
+
+
+
+	function getBookingPhotos(sys_id){
+		console.log('Sys_id: ' + sys_id);
+		var items =  {
+			data: [],
+			sys_id: []	
+		};
+		var attachment = new GlideSysAttachment();
+		var agr = attachment.getAttachments('x_578933_transport_space_booking', sys_id);
+		agr.query();
+
+		while(agr.next()){
+			var attachmentGr = new GlideRecord('sys_attachment');
+			attachmentGr.addQuery('sys_id', agr.getUniqueValue());
+			attachmentGr.setLimit(1);
+			attachmentGr.query();
+			attachmentGr.next();
+			items.data.push("data:" + attachmentGr.getValue('content_type') + ";base64," + attachment.getContentBase64(attachmentGr));
+			items.sys_id.push(agr.getUniqueValue());
+		}
+		return items;
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 09:24:35</sys_created_on>
+        <sys_id>1758e5ed07ee60108fb9fea89c1ed0d4</sys_id>
+        <sys_mod_count>263</sys_mod_count>
+        <sys_name>Photos</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sp_widget_1758e5ed07ee60108fb9fea89c1ed0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 10:05:01</sys_updated_on>
+        <template><![CDATA[<div id="arctive-photo" class="panel panel-default">
+
+  <div class="panel-heading">
+    <button type="button" class="btn-head btn btn-success btn-sm" ng-click="getAllPhotos()">Get All Photos</button>
+    <div id="picker">
+      <sn-record-picker field="booking" table="'x_578933_transport_space_booking'" default-query="''" 
+                        display-field="'short_description'" value-field="'sys_id'" search-fields="'short_description'" 
+                        page-size="10" ng-change="getPhotosOfBooking()">   
+      </sn-record-picker>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="test">
+      <div ng-repeat="photo in photos.data" class="item">
+        <img class="item-content" src="{{photo}}" 
+             onClick=""/>
+      </div>  
+    </div>
+  </div>
+
+
+
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>space_m3</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:28:46</sys_created_on>
+        <sys_data_policy display_value="Sets the Space [m3] field to mandatory">f16011702fd260107979309cf699b60a</sys_data_policy>
+        <sys_id>316011702fd260107979309cf699b60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>space_m3</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_data_policy_rule_316011702fd260107979309cf699b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:28:46</sys_updated_on>
+        <table>x_578933_transport_space_booking</table>
+    </sys_data_policy_rule>
+</record_update>

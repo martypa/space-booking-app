@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project Task" max_length="40" name="x_578933_transport_project_task" sizeclass="15" type="collection">
+        <element label="gantt number" max_length="40" name="gantt_number" type="integer"/>
+        <element label="Receiver" max_length="32" name="receiver" reference="sys_user" type="reference"/>
+        <element label="sender" max_length="32" name="sender" reference="sys_user" type="reference"/>
+        <element label="Short Description" max_length="100" name="short_description" type="string"/>
+        <element choice="1" label="state" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="on Hold" value="onHold"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+            </choice>
+        </element>
+        <element label="work end" max_length="40" name="work_end" type="glide_date"/>
+        <element label="work start" max_length="40" name="work_start" type="glide_date"/>
+        <index name="index">
+            <element name="receiver"/>
+        </index>
+        <index name="index2">
+            <element name="sender"/>
+        </index>
+    </element>
+</database>

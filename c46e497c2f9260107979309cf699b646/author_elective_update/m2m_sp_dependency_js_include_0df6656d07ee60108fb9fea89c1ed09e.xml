@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="Photoswipe">155621e507ae60108fb9fea89c1ed02d</sp_dependency>
+        <sp_js_include display_value="photoswipe-ui-defauilt.js">19c621ad07ee60108fb9fea89c1ed037</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 09:18:26</sys_created_on>
+        <sys_id>0df6656d07ee60108fb9fea89c1ed09e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Photoswipe.photoswipe-ui-defauilt.js</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_0df6656d07ee60108fb9fea89c1ed09e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-25 09:18:26</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>7331824bdbf95b840e785d00cf96197e</instance_id>
+        <instance_name>dev58206</instance_name>
+        <name>m2m_sp_dependency_js_include_0df6656d07ee60108fb9fea89c1ed09e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="Photoswipe">155621e507ae60108fb9fea89c1ed02d</sp_dependency><sp_js_include display_value="photoswipe-ui-defauilt.js">19c621ad07ee60108fb9fea89c1ed037</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-25 09:18:26</sys_created_on><sys_id>0df6656d07ee60108fb9fea89c1ed09e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Photoswipe.photoswipe-ui-defauilt.js</sys_name><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>m2m_sp_dependency_js_include_0df6656d07ee60108fb9fea89c1ed09e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-25 09:18:26</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>-1390627851</payload_hash>
+        <record_name>Photoswipe.photoswipe-ui-defauilt.js</record_name>
+        <reverted_from/>
+        <source>4682d00b079220108fb9fea89c1ed02d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 09:18:26</sys_created_on>
+        <sys_id>05f6a1ad07ee60108fb9fea89c1ed068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177d87b7a360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-25 09:18:26</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>4df6a1ad1fee6010bc1e220d25970567</update_guid>
+        <update_guid_history>4df6a1ad1fee6010bc1e220d25970567:-1390627851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Photoswipe.photoswipe-ui-defauilt.js">0e57a1ad07ee60108fb9fea89c1ed0f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 09:20:09</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>26316ab15e9c4e78978b85594b420704</sys_id>
+        <sys_metadata>0df6656d07ee60108fb9fea89c1ed09e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Photoswipe.photoswipe-ui-defauilt.js</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_0df6656d07ee60108fb9fea89c1ed09e</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_0df6656d07ee60108fb9fea89c1ed09e">05f6a1ad07ee60108fb9fea89c1ed068</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-25 09:20:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

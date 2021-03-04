@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>dangerous_goods</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>set_dangerous_description_enable</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:59:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>108651b42fd260107979309cf699b6ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>set_dangerous_description_enable</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sys_script_client_108651b42fd260107979309cf699b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 14:03:50</sys_updated_on>
+        <table>x_578933_transport_space_booking</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</application>
+        <file_path/>
+        <instance_id>1a3b709edbb9641842b321c4059619e9</instance_id>
+        <instance_name>dev104945</instance_name>
+        <name>sys_script_client_108651b42fd260107979309cf699b6ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client"><sys_script_client action="INSERT_OR_UPDATE"><active>true</active><applies_extended>false</applies_extended><condition/><description/><field>dangerous_goods</field><global>true</global><isolate_script>true</isolate_script><messages/><name>set_dangerous_description_enable</name><order/><script/><sys_class_name>sys_script_client</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-10 13:59:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>108651b42fd260107979309cf699b6ef</sys_id><sys_mod_count>3</sys_mod_count><sys_name>set_dangerous_description_enable</sys_name><sys_overrides/><sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package><sys_policy/><sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope><sys_update_name>sys_script_client_108651b42fd260107979309cf699b6ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-10 14:03:50</sys_updated_on><table>x_578933_transport_space_booking</table><type>onLoad</type><ui_type>10</ui_type><view/></sys_script_client></record_update>]]></payload>
+        <payload_hash>-660128549</payload_hash>
+        <record_name>set_dangerous_description_enable</record_name>
+        <reverted_from/>
+        <source>c8c051fc2f9260107979309cf699b695</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 14:03:51</sys_created_on>
+        <sys_id>a7689db42fd260107979309cf699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778c4161a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 14:03:51</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>ef689db4a9d26010631621216ba6dbfe</update_guid>
+        <update_guid_history>ef689db4a9d26010631621216ba6dbfe:-660128549,9f28d5f403d260107119e30788d21e80:-1770122968,0a7755b473d26010af9f92138f0586c0:197135885,236711b477d26010e15b373e6263c2da:378486825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 14:04:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>532ebad065dc4886af0da43fa9c5dea4</sys_id>
+        <sys_metadata>108651b42fd260107979309cf699b6ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>set_dangerous_description_enable</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_parent display_value="space booking">c9609d302fd260107979309cf699b6ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_scope_delete display_value="">039b153da7d3413a8069c543468ffd24</sys_scope_delete>
+        <sys_update_name>sys_script_client_108651b42fd260107979309cf699b6ef</sys_update_name>
+        <sys_update_version display_value="sys_script_client_108651b42fd260107979309cf699b6ef">a7689db42fd260107979309cf699b6ff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 14:04:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

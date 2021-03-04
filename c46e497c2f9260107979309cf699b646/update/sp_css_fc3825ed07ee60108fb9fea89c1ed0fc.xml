@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */&#13;
+/*&#13;
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)&#13;
+*/&#13;
+/* pswp = photoswipe */&#13;
+.pswp {&#13;
+  display: none;&#13;
+  position: absolute;&#13;
+  width: 100%;&#13;
+  height: 100%;&#13;
+  left: 0;&#13;
+  top: 0;&#13;
+  overflow: hidden;&#13;
+  -ms-touch-action: none;&#13;
+  touch-action: none;&#13;
+  z-index: 1500;&#13;
+  -webkit-text-size-adjust: 100%;&#13;
+  /* create separate layer, to avoid paint on window.onscroll in webkit/blink */&#13;
+  -webkit-backface-visibility: hidden;&#13;
+  outline: none; }&#13;
+  .pswp * {&#13;
+    -webkit-box-sizing: border-box;&#13;
+            box-sizing: border-box; }&#13;
+  .pswp img {&#13;
+    max-width: none; }&#13;
+&#13;
+/* style is added when JS option showHideOpacity is set to true */&#13;
+.pswp--animate_opacity {&#13;
+  /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */&#13;
+  opacity: 0.001;&#13;
+  will-change: opacity;&#13;
+  /* for open/close transition */&#13;
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);&#13;
+          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }&#13;
+&#13;
+.pswp--open {&#13;
+  display: block; }&#13;
+&#13;
+.pswp--zoom-allowed .pswp__img {&#13;
+  /* autoprefixer: off */&#13;
+  cursor: -webkit-zoom-in;&#13;
+  cursor: -moz-zoom-in;&#13;
+  cursor: zoom-in; }&#13;
+&#13;
+.pswp--zoomed-in .pswp__img {&#13;
+  /* autoprefixer: off */&#13;
+  cursor: -webkit-grab;&#13;
+  cursor: -moz-grab;&#13;
+  cursor: grab; }&#13;
+&#13;
+.pswp--dragging .pswp__img {&#13;
+  /* autoprefixer: off */&#13;
+  cursor: -webkit-grabbing;&#13;
+  cursor: -moz-grabbing;&#13;
+  cursor: grabbing; }&#13;
+&#13;
+/*&#13;
+	Background is added as a separate element.&#13;
+	As animating opacity is much faster than animating rgba() background-color.&#13;
+*/&#13;
+.pswp__bg {&#13;
+  position: absolute;&#13;
+  left: 0;&#13;
+  top: 0;&#13;
+  width: 100%;&#13;
+  height: 100%;&#13;
+  background: #000;&#13;
+  opacity: 0;&#13;
+  -webkit-transform: translateZ(0);&#13;
+          transform: translateZ(0);&#13;
+  -webkit-backface-visibility: hidden;&#13;
+  will-change: opacity; }&#13;
+&#13;
+.pswp__scroll-wrap {&#13;
+  position: absolute;&#13;
+  left: 0;&#13;
+  top: 0;&#13;
+  width: 100%;&#13;
+  height: 100%;&#13;
+  overflow: hidden; }&#13;
+&#13;
+.pswp__container,&#13;
+.pswp__zoom-wrap {&#13;
+  -ms-touch-action: none;&#13;
+  touch-action: none;&#13;
+  position: absolute;&#13;
+  left: 0;&#13;
+  right: 0;&#13;
+  top: 0;&#13;
+  bottom: 0; }&#13;
+&#13;
+/* Prevent selection and tap highlights */&#13;
+.pswp__container,&#13;
+.pswp__img {&#13;
+  -webkit-user-select: none;&#13;
+  -moz-user-select: none;&#13;
+  -ms-user-select: none;&#13;
+      user-select: none;&#13;
+  -webkit-tap-highlight-color: transparent;&#13;
+  -webkit-touch-callout: none; }&#13;
+&#13;
+.pswp__zoom-wrap {&#13;
+  position: absolute;&#13;
+  width: 100%;&#13;
+  -webkit-transform-origin: left top;&#13;
+  -ms-transform-origin: left top;&#13;
+  transform-origin: left top;&#13;
+  /* for open/close transition */&#13;
+  -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);&#13;
+          transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1); }&#13;
+&#13;
+.pswp__bg {&#13;
+  will-change: opacity;&#13;
+  /* for open/close transition */&#13;
+  -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);&#13;
+          transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1); }&#13;
+&#13;
+.pswp--animated-in .pswp__bg,&#13;
+.pswp--animated-in .pswp__zoom-wrap {&#13;
+  -webkit-transition: none;&#13;
+  transition: none; }&#13;
+&#13;
+.pswp__container,&#13;
+.pswp__zoom-wrap {&#13;
+  -webkit-backface-visibility: hidden; }&#13;
+&#13;
+.pswp__item {&#13;
+  position: absolute;&#13;
+  left: 0;&#13;
+  right: 0;&#13;
+  top: 0;&#13;
+  bottom: 0;&#13;
+  overflow: hidden; }&#13;
+&#13;
+.pswp__img {&#13;
+  position: absolute;&#13;
+  width: auto;&#13;
+  height: auto;&#13;
+  top: 0;&#13;
+  left: 0; }&#13;
+&#13;
+/*&#13;
+	stretched thumbnail or div placeholder element (see below)&#13;
+	style is added to avoid flickering in webkit/blink when layers overlap&#13;
+*/&#13;
+.pswp__img--placeholder {&#13;
+  -webkit-backface-visibility: hidden; }&#13;
+&#13;
+/*&#13;
+	div element that matches size of large image&#13;
+	large image loads on top of it&#13;
+*/&#13;
+.pswp__img--placeholder--blank {&#13;
+  background: #222; }&#13;
+&#13;
+.pswp--ie .pswp__img {&#13;
+  width: 100% !important;&#13;
+  height: auto !important;&#13;
+  left: 0;&#13;
+  top: 0; }&#13;
+&#13;
+/*&#13;
+	Error message appears when image is not loaded&#13;
+	(JS option errorMsg controls markup)&#13;
+*/&#13;
+.pswp__error-msg {&#13;
+  position: absolute;&#13;
+  left: 0;&#13;
+  top: 50%;&#13;
+  width: 100%;&#13;
+  text-align: center;&#13;
+  font-size: 14px;&#13;
+  line-height: 16px;&#13;
+  margin-top: -8px;&#13;
+  color: #CCC; }&#13;
+&#13;
+.pswp__error-msg a {&#13;
+  color: #CCC;&#13;
+  text-decoration: underline; }&#13;
+</css>
+        <name>photoswipe.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-25 09:24:04</sys_created_on>
+        <sys_id>fc3825ed07ee60108fb9fea89c1ed0fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>photoswipe.css</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_update_name>sp_css_fc3825ed07ee60108fb9fea89c1ed0fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-25 09:24:04</sys_updated_on>
+    </sp_css>
+</record_update>

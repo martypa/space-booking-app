@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-02 12:31:14</sys_created_on>
+        <sys_id>ca034053ff2620101ff987f8b721f130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_578933_transport_task_dependency.x_578933_transport.task_dependency_user</sys_name>
+        <sys_package display_value="Transport Reservation" source="x_578933_transport">c46e497c2f9260107979309cf699b646</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Transport Reservation">c46e497c2f9260107979309cf699b646</sys_scope>
+        <sys_security_acl display_value="x_578933_transport_task_dependency">ce034053ff2620101ff987f8b721f12b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ca034053ff2620101ff987f8b721f130</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-02 12:31:14</sys_updated_on>
+        <sys_user_role display_value="x_578933_transport.task_dependency_user" name="x_578933_transport.task_dependency_user">75034cdfffe220101ff987f8b721f114</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
